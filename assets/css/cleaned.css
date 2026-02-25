@@ -1,0 +1,12 @@
+/* Extracted styles to keep layout visually the same and remove inline styles */
+.rev_slider_wrapper { position: relative; }
+.rev_slider .rev-slidebg { background-size: cover; background-position: center center; }
+.rev_slider .tp-caption { color: #fff; font-family: 'Open Sans', Arial, sans-serif; }
+.rev_slider .slider-shade { z-index:6; background-color: rgba(0,0,0,0.5); }
+.rev_slider .hero-title { z-index:7; white-space:nowrap; font-size:80px; line-height:100px; font-weight:700; color:#ffffff; letter-spacing:0; }
+.rev_slider .hero-subtitle { z-index:8; white-space:nowrap; font-size:35px; line-height:50px; font-weight:600; color:#ffffff; }
+.rev_slider .hero-small { z-index:9; white-space:nowrap; font-size:25px; line-height:27px; font-weight:400; color:#ffffff; }
+
+/* Basic semantic helpers used when cleaning WP classes */
+.site-container { max-width:1200px; margin:0 auto; }
+.sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; }
